@@ -1,0 +1,12 @@
+point 1 - how to spacing between toolbar and shopping one
+
+////      <mat-toolbar class="max-w-7x1 mx-auto border-x justify-between">
+          <a routerLink="home">Welcome To The Store</a>
+          <span class="example-spacer"></span>
+          <mat-icon 
+              [matBadge]="1"
+              matBadgeColor="warn"
+           >shopping_cart</mat-icon>
+           </mat-toolbar>
+
+point - 2 
