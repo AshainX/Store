@@ -1,1 +1,13 @@
-<p>products-header works!</p>
+<mat-card class="nb-4">
+    <div class="flex justify-between">
+        <div>
+            <button mat-button [mat-menu-trigger-for]="sortByMenu">
+                sort by desc
+            </button>
+            <mat-menu #sortByMenu="matMenu">
+                <button mat-menu-item>desc</button>
+                <button mat-menu-item>asc</button>
+            </mat-menu>
+        </div>
+    </div>
+</mat-card>
